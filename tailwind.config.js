@@ -7,11 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      maxWidth: {
+        'maxPage': '79.8125rem',
       },
+      padding:{
+        'pd': '5rem',
+        'pm': '2,5rem',
+        '5.5': '22px'
+      },
+      gap:{
+        '4.7':'0.9375rem'
+      },
+      screens: {
+        'desktop': '1440px'
+      }
     },
   },
   plugins: [],
